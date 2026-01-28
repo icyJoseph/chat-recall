@@ -3,7 +3,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Week Work',
+  title: 'Chat Recall',
   description: 'Privacy-first viewer for your AI coding assistant chat history',
 }
 

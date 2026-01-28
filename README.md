@@ -1,4 +1,4 @@
-# Week Work
+# Chat Recall
 
 A privacy-first tool to view and search your AI coding assistant chat history. Browse conversations from Claude Code and Cursor in one unified interface.
 
