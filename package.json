@@ -1,0 +1,54 @@
+{
+  "name": "week-work",
+  "version": "0.0.1",
+  "description": "Privacy-first viewer for your AI coding assistant chat history",
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.25.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "sharp"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icyJoseph/week-work.git"
+  },
+  "keywords": [
+    "claude",
+    "cursor",
+    "chat-history",
+    "developer-tools",
+    "offline-first",
+    "nextjs"
+  ],
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.0",
+    "@mui/material": "^6.4.0",
+    "@mui/material-nextjs": "^6.4.0",
+    "better-sqlite3": "^11.8.1",
+    "next": "^16.2.0-canary.8",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.0.0"
+  }
+}
