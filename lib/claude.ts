@@ -103,7 +103,7 @@ export async function parseClaudeSession(sessionPath: string): Promise<Chat | nu
     const displayName = projectName.split('/').pop() || 'Unknown'
 
     return {
-      session_id: `claude_${sessionId}`,
+      session_id: `claude_${projectDir}_${sessionId}`,
       source: 'claude',
       project: {
         name: displayName,
