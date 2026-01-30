@@ -1,10 +1,12 @@
 # Chat Recall
 
+If you have chat history, we'll recall it.
+
 A privacy-first tool to view and search your AI coding assistant chat history. Browse conversations from Claude Code and Cursor in one unified interface.
 
 ## Offline First
 
-**Your data never leaves your machine.** Week Work reads directly from local chat history files stored on your computer. There are no external API calls, no cloud sync, and no data collection. Everything runs locally.
+**Your data never leaves your machine.** Chat Recall reads directly from local chat history files stored on your computer. There are no external API calls, no cloud sync, and no data collection. Everything runs locally.
 
 ## Features
 
@@ -16,7 +18,7 @@ A privacy-first tool to view and search your AI coding assistant chat history. B
 
 ## Requirements
 
-- Node.js 18+
+- Node.js 20+
 - pnpm
 
 ## Installation
@@ -59,14 +61,14 @@ The dev server runs on port 3000 with fast refresh enabled.
 
 ## Data Sources
 
-Week Work reads from the standard data locations used by each tool:
+Chat Recall reads from the standard data locations used by each tool:
 
 | Tool | Location |
 |------|----------|
 | Claude Code | `~/.claude/projects/` |
 | Cursor | Platform-specific Application Support directory |
 
-No configuration needed - if you have chat history, Week Work will find it.
+No configuration needed - if you have chat history, we'll recall it.
 
 ## Tech Stack
 
