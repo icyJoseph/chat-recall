@@ -1,6 +1,6 @@
-# Contributing to Week Work
+# Contributing to Chat Recall
 
-Thank you for your interest in contributing to Week Work! This document provides guidelines for contributing.
+Thank you for your interest in contributing to Chat Recall! This document provides guidelines for contributing.
 
 ## Getting Started
 
@@ -15,17 +15,18 @@ Thank you for your interest in contributing to Week Work! This document provides
 
 1. Install dependencies:
    ```bash
-   pip install -r requirements.txt
-   cd frontend && npm install
+   pnpm install
    ```
 
 2. Run in development mode:
    ```bash
-   # Terminal 1: Backend
-   FLASK_DEBUG=1 python server.py
+   pnpm dev
+   ```
 
-   # Terminal 2: Frontend
-   cd frontend && npm start
+3. Build for production:
+   ```bash
+   pnpm build
+   pnpm start
    ```
 
 ## Pull Request Guidelines
